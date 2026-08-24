@@ -1,0 +1,52 @@
+{
+  "titulo": "Lo que anuncia un sismo y lo que solo lo parece",
+  "subtitulo": "Semáforo de evidencia para las señales premonitorias",
+  "kicker_portada": "Gestión del riesgo · Sismología",
+  "intro": "Cada vez que tiembla reaparecen las mismas señales: el perro que ladró de madrugada, el calor raro, el viento extraño. La primera revisión sistemática del tema analizó más de 700 registros de conducta animal previa a 160 terremotos. Solo 14 eran series continuas; el resto, observaciones sueltas contadas después del sismo.",
+  "tarjetas": [
+    {
+      "kicker": "Qué es",
+      "titulo": "Predicción, pronóstico y alerta",
+      "texto": "No son sinónimos, y confundirlos cuesta vidas. Predicción es decir dónde, cuándo y de qué magnitud: hoy nadie en el mundo puede hacerlo. Pronóstico es asignar una probabilidad a treinta años: sirve para normas de construcción y seguros, no para evacuar. Alerta temprana es detectar la onda P de un sismo que ya empezó y avisar segundos antes de la onda destructiva. Eso sí funciona, y es lo que llega a tu celular."
+    },
+    {
+      "kicker": "Por qué importa",
+      "titulo": "El sesgo que fabrica precursores",
+      "texto": "EVIDENCIA FUERTE: la revisión de 180 publicaciones encontró que la distribución de los supuestos precursores animales coincide con la de los sismos premonitorios. Buena parte de lo que atribuimos a un sexto sentido es reacción a temblores que ya estaban ocurriendo. AFIRMACIÓN GENERAL: los animales sí perciben la onda P y el infrasonido antes que nosotros, pero eso concede segundos, no días."
+    },
+    {
+      "kicker": "Cómo se aplica",
+      "titulo": "Señales que sí exigen actuar",
+      "bullets": [
+        "Retumbe grave subterráneo — la onda P ya llegó. Agáchate, cúbrete y agárrate: tienes uno a tres segundos.",
+        "El mar se retira de forma anómala — sube a terreno alto de inmediato. No esperes la alerta ni vayas a mirar.",
+        "Sismo largo estando en la costa — al terminar, evacúa hacia arriba sin recoger pertenencias.",
+        "Tremor volcánico informado por el observatorio — este sí es precursor real. Atiende la orden de evacuar.",
+        "Ruido de tren, grietas nuevas y agua turbia tras lluvias — deslizamiento inminente. Sal de la ladera."
+      ]
+    },
+    {
+      "kicker": "Errores comunes",
+      "titulo": "Creencias que no resisten los datos",
+      "bullets": [
+        "«El clima estaba raro.» — No hay correlación entre clima y sismos: el foco está a kilómetros de profundidad.",
+        "«Mi perro lo predijo.» — Recordamos la noche que ladró y olvidamos las mil noches que ladró sin sismo.",
+        "«Ese aparato los provoca.» — Un sismo de magnitud 7 libera la energía de cientos de bombas atómicas.",
+        "«Alguien sabe la fecha.» — Ninguna agencia sismológica del mundo predice sismos. Quien lo promete, vende algo."
+      ]
+    }
+  ],
+  "recuadro": {
+    "kicker": "Dato clave · Transparencia",
+    "titulo": "Lo que esta pieza NO puede hacer",
+    "texto": "No te dice cuándo va a temblar, porque nadie puede. La comisión internacional convocada tras L'Aquila revisó radón, nivel freático, señales electromagnéticas, anomalías térmicas y conducta animal: ninguna produjo un método de predicción a corto plazo. Y la lección más dura: ausencia de señales no significa ausencia de sismo.",
+    "nota": "Material educativo. No reemplaza a tu autoridad local de gestión del riesgo ni la evaluación de un profesional sobre tu vivienda."
+  },
+  "conclusion": "No podemos predecir el sismo. Sí podemos decidir cómo nos encuentra.",
+  "cta": "Guarda esta pieza y revísala con tu familia. El plan que no se ensaya, no existe.",
+  "firma": "CMV_Insight · Colombia, El País de la Maravilla — Cuidemos Nuestro País",
+  "referencias": [
+    "Woith H, Petersen GM, Hainzl S, Dahm T. Review: Can Animals Predict Earthquakes? Bull Seismol Soc Am. 2018;108(3A):1031-45. doi:10.1785/0120170313",
+    "Jordan TH, Chen YT, Gasparini P, Madariaga R, Main I, et al. Operational earthquake forecasting. Ann Geophys. 2011;54(4):315-91. doi:10.4401/ag-5350"
+  ]
+}
