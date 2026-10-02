@@ -1,0 +1,15 @@
+[
+["M", "Dialogue one. In the emergency department."],
+["F", "Doctor Brooks, Mister Rivera's labs are back. His potassium is too low: two point nine millimoles per liter."],
+["M", "That's below the reference range. Is it lower than his last result?"],
+["F", "Yes. It was three point six last month, so it has decreased quite a lot. He reports fatigue and leg cramps."],
+["M", "Makes sense. The diuretic and the diarrhea can both cause potassium loss. What does the ECG show?"],
+["F", "Flat T waves and U waves. No arrhythmia right now."],
+["M", "OK. Because there are ECG changes, his potassium needs to be replaced intravenously, and his heart rhythm needs to be monitored. What about his magnesium?"],
+["F", "Zero point six two. It's low too."],
+["M", "Then magnesium needs to be corrected as well. If there is not enough magnesium, the potassium is very hard to correct."],
+["F", "And his sodium is one thirty-three. Does it need to be corrected quickly?"],
+["M", "No. It's only mildly low, and it's probably chronic. It doesn't need to be corrected fast. In fact, it mustn't be corrected too fast. Let's recheck all his electrolytes in four hours."],
+["F", "Got it. I'll start the replacement and set up the cardiac monitor."],
+["M", "Thanks, Laura. And let's review that diuretic dose before discharge."]
+]

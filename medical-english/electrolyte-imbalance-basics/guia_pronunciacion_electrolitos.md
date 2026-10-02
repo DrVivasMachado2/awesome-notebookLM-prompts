@@ -14,6 +14,7 @@
 | Archivo | Para qué sirve |
 |---|---|
 | `electrolyte_imbalance_basics_narration.mp3` | Audio narrado del texto fuente (15:20 min, MP3 320 kbps, −14 LUFS) |
+| `dialogo1_dos_voces.mp3` | Diálogo 1 grabado a dos voces (M/F), 1:44 min |
 | `script_tts.ssml` | Guion exacto con etiquetas SSML (`<break>`, `<emphasis>`, `<phoneme>`) para pegar en un software TTS profesional |
 | `tts_pipeline/` | Texto por párrafos y los scripts que generan y masterizan el audio (reproducible) |
 
@@ -133,6 +134,8 @@ Leyenda: **[M]** = voz masculina · **[F]** = voz femenina. Los términos del vo
 **[F] Laura:** Got it. I'll start the **replacement** and set up the cardiac monitor.
 
 **[M] Dr. Brooks:** Thanks, Laura. And let's review that **diuretic** dose before discharge.
+
+**🎧 Audio a dos voces:** `dialogo1_dos_voces.mp3` (1 min 44 s · 117.5 ppm · −14.0 LUFS · MP3 320 kbps). Voces: Dr. Brooks [M] = Kokoro `am_michael`; Laura [F] = Kokoro `af_heart`, ambas en inglés americano. Hay 0.5 s entre oraciones y 1.5 s entre turnos, y el nivel de las dos voces está igualado. Para practicar el rol, pause el audio después de cada intervención de Laura y responda como el Dr. Brooks.
 
 **Base científica del diálogo**
 
