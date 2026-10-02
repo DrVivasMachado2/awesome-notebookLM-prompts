@@ -1,0 +1,383 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<speak version="1.1" xmlns="http://www.w3.org/2001/10/synthesis" xml:lang="en-US">
+  <!-- Voice: American English, male, warm and didactic. Target: 110-120 wpm, -14 LUFS. -->
+  <prosody rate="90%" pitch="-2%">
+    <!-- P01 -->
+    <p>
+      <s>Word Maestro.</s><break time="0.5s"/>
+      <s>Medical English.</s><break time="0.5s"/>
+      <s>Electrolyte Imbalance Basics: Describing Abnormal Levels.</s><break time="0.5s"/>
+      <s>A master class in medical English, from level B1 to C1, with an OET and TOEFL focus, in American English.</s>
+    </p>
+    <break time="1.5s"/>
+    <!-- P02 -->
+    <p>
+      <s>Part one.</s><break time="0.5s"/>
+      <s>Learning objectives.</s><break time="0.5s"/>
+      <s>By the end of this lesson, you will be able to do five things.</s><break time="0.5s"/>
+      <s>One: describe electrolyte levels.</s><break time="0.5s"/>
+      <s>His potassium is <emphasis level="moderate">too high</emphasis>.</s><break time="0.5s"/>
+      <s>Two: describe quantity.</s><break time="0.5s"/>
+      <s>There is <emphasis level="moderate">not enough</emphasis> sodium.</s><break time="0.5s"/>
+      <s>Three: compare with the reference range.</s><break time="0.5s"/>
+      <s>Calcium is <emphasis level="moderate">within the reference range</emphasis>.</s><break time="0.5s"/>
+      <s>Four: compare two results.</s><break time="0.5s"/>
+      <s>Sodium is <emphasis level="moderate">lower than</emphasis> yesterday's.</s><break time="0.5s"/>
+      <s>Five: describe change and action.</s><break time="0.5s"/>
+      <s>Potassium <emphasis level="moderate">needs to be</emphasis> replaced.</s>
+    </p>
+    <break time="1.5s"/>
+    <!-- P03 -->
+    <p>
+      <s>Here is the clinical reasoning flow.</s><break time="0.5s"/>
+      <s>Check the value.</s><break time="0.5s"/>
+      <s>Is it high, or low?</s><break time="0.5s"/>
+      <s>Describe the degree: mildly, moderately, or severely.</s><break time="0.5s"/>
+      <s>Identify the symptoms.</s><break time="0.5s"/>
+      <s>Then, describe the action, with <emphasis level="moderate">needs to be</emphasis>, plus a past participle.</s>
+    </p>
+    <break time="1.5s"/>
+    <!-- P04 -->
+    <p>
+      <s>Part two.</s><break time="0.5s"/>
+      <s>Clinical vocabulary.</s><break time="0.5s"/>
+      <s>First, nouns.</s><break time="0.5s"/>
+      <s>Electrolyte.</s><break time="0.5s"/>
+      <s>Sodium is the main extracellular electrolyte.</s><break time="0.5s"/>
+      <s>Imbalance.</s><break time="0.5s"/>
+      <s>Diuretics can cause an electrolyte imbalance.</s><break time="0.5s"/>
+      <s>Level.</s><break time="0.5s"/>
+      <s>Her sodium level is stable.</s><break time="0.5s"/>
+      <s>Range.</s><break time="0.5s"/>
+      <s>The normal range is three point five to five point oh millimoles per liter.</s><break time="0.5s"/>
+      <s>Deficiency.</s><break time="0.5s"/>
+      <s>Magnesium deficiency can cause arrhythmias.</s><break time="0.5s"/>
+      <s>Replacement.</s><break time="0.5s"/>
+      <s>Start oral potassium replacement.</s>
+    </p>
+    <break time="1.5s"/>
+    <!-- P05 -->
+    <p>
+      <s>Now, verbs.</s><break time="0.5s"/>
+      <s>Monitor.</s><break time="0.5s"/>
+      <s>Monitor the ECG continuously.</s><break time="0.5s"/>
+      <s>Replace.</s><break time="0.5s"/>
+      <s>We need to replace his magnesium.</s><break time="0.5s"/>
+      <s>Increase.</s><break time="0.5s"/>
+      <s>Potassium increased to five point eight.</s><break time="0.5s"/>
+      <s>Decrease.</s><break time="0.5s"/>
+      <s>Sodium decreased to one hundred twenty-eight.</s><break time="0.5s"/>
+      <s>Correct.</s><break time="0.5s"/>
+      <s>Correct sodium slowly.</s><break time="0.5s"/>
+      <s>Recheck.</s><break time="0.5s"/>
+      <s>Recheck potassium in four hours.</s>
+    </p>
+    <break time="1.5s"/>
+    <!-- P06 -->
+    <p>
+      <s>Next, adjectives.</s><break time="0.5s"/>
+      <s>Abnormal.</s><break time="0.5s"/>
+      <s>The panel shows abnormal results.</s><break time="0.5s"/>
+      <s>Elevated.</s><break time="0.5s"/>
+      <s>Calcium is elevated.</s><break time="0.5s"/>
+      <s>Reduced.</s><break time="0.5s"/>
+      <s>Urine output is reduced.</s><break time="0.5s"/>
+      <s>Low, and high.</s><break time="0.5s"/>
+      <s>His sodium is low.</s><break time="0.5s"/>
+      <s>Severe.</s><break time="0.5s"/>
+      <s>She has severe hyponatremia.</s><break time="0.5s"/>
+      <s>Remember the scale: mild, moderate, severe.</s><break time="0.5s"/>
+      <s>Word families: replace, replacement.</s><break time="0.5s"/>
+      <s>Deficient, deficiency.</s><break time="0.5s"/>
+      <s>Correct, correction.</s><break time="0.5s"/>
+      <s>In formal writing, say elevated and reduced.</s><break time="0.5s"/>
+      <s>In conversation, say high and low.</s>
+    </p>
+    <break time="1.5s"/>
+    <!-- P07 -->
+    <p>
+      <s>Pronunciation of the E-D ending.</s><break time="0.5s"/>
+      <s>After a T or a D sound, the ending is a full syllable: repeated, corrected, elevated, expected.</s><break time="0.5s"/>
+      <s>After a voiceless sound, it sounds like a T: replaced, rechecked, reduced, increased, decreased.</s><break time="0.5s"/>
+      <s>In all other cases, it sounds like a D: monitored, followed, prescribed, happened.</s>
+    </p>
+    <break time="1.5s"/>
+    <!-- P08 -->
+    <p>
+      <s>Part three.</s><break time="0.5s"/>
+      <s>Grammar structures.</s><break time="0.5s"/>
+      <s>Number one: high and low, versus <emphasis level="moderate">too high</emphasis> and <emphasis level="moderate">too low</emphasis>.</s><break time="0.5s"/>
+      <s>High or low describes the level in a neutral way.</s><break time="0.5s"/>
+      <s>The potassium level is high.</s><break time="0.5s"/>
+      <s>Too, plus an adjective, shows a problem that needs clinical attention.</s><break time="0.5s"/>
+      <s>His potassium level is <emphasis level="moderate">too high</emphasis>.</s><break time="0.5s"/>
+      <s>The negative: It isn't <emphasis level="moderate">too low</emphasis>.</s><break time="0.5s"/>
+      <s>The question: Is his potassium <emphasis level="moderate">too high</emphasis>?</s><break time="0.5s"/>
+      <s>To make it stronger, say <emphasis level="moderate">much too high</emphasis>, or <emphasis level="moderate">far too high</emphasis>.</s><break time="0.5s"/>
+      <s>Never say <emphasis level="moderate">too very high</emphasis>.</s>
+    </p>
+    <break time="1.5s"/>
+    <!-- P09 -->
+    <p>
+      <s>Number two: <emphasis level="moderate">too much</emphasis>, <emphasis level="moderate">too little</emphasis>, and <emphasis level="moderate">not enough</emphasis>.</s><break time="0.5s"/>
+      <s>There is <emphasis level="moderate">too much</emphasis> potassium in the blood.</s><break time="0.5s"/>
+      <s>There is <emphasis level="moderate">too little</emphasis> magnesium in the blood.</s><break time="0.5s"/>
+      <s>The patient does not have enough magnesium.</s><break time="0.5s"/>
+      <s>With countable nouns, say <emphasis level="moderate">too many</emphasis> tablets, <emphasis level="moderate">too few</emphasis> cells, and <emphasis level="moderate">not enough</emphasis> beds.</s><break time="0.5s"/>
+      <s>Here is the golden rule.</s><break time="0.5s"/>
+      <s>For the level, use high or low.</s><break time="0.5s"/>
+      <s>For the substance, use much, little, or enough.</s><break time="0.5s"/>
+      <s>The level is <emphasis level="moderate">too low</emphasis>.</s><break time="0.5s"/>
+      <s>There is <emphasis level="moderate">too little</emphasis> potassium.</s><break time="0.5s"/>
+      <s>And remember the word order: enough water, but not high enough.</s>
+    </p>
+    <break time="1.5s"/>
+    <!-- P10 -->
+    <p>
+      <s>Number three: above, below, and <emphasis level="moderate">within the reference range</emphasis>.</s><break time="0.5s"/>
+      <s>His magnesium level is <emphasis level="moderate">within the reference range</emphasis>.</s><break time="0.5s"/>
+      <s>In other words, within normal limits.</s><break time="0.5s"/>
+      <s>You can also say slightly above, well below, outside the range, or below one hundred thirty-five millimoles per liter.</s><break time="0.5s"/>
+      <s>Sodium is low, describes.</s><break time="0.5s"/>
+      <s>Sodium is <emphasis level="moderate">below the reference range</emphasis>, compares with the standard.</s><break time="0.5s"/>
+      <s>It is more objective, and more professional.</s><break time="0.5s"/>
+      <s>Say above the range.</s><break time="0.5s"/>
+      <s>Never say <emphasis level="moderate">above of the range</emphasis>.</s>
+    </p>
+    <break time="1.5s"/>
+    <!-- P11 -->
+    <p>
+      <s>Number four: <emphasis level="moderate">higher than</emphasis>, and <emphasis level="moderate">lower than</emphasis>.</s><break time="0.5s"/>
+      <s>Her sodium is <emphasis level="moderate">lower than</emphasis> the previous result.</s><break time="0.5s"/>
+      <s>One syllable: higher.</s><break time="0.5s"/>
+      <s>Two or more syllables: more severe.</s><break time="0.5s"/>
+      <s>Irregular forms: better, and worse.</s><break time="0.5s"/>
+      <s>For more precision, say <emphasis level="moderate">higher than</emphasis> yesterday's, or <emphasis level="moderate">higher than</emphasis> it was yesterday.</s><break time="0.5s"/>
+      <s>The word than is weak.</s><break time="0.5s"/>
+      <s>Do not confuse than with then.</s><break time="0.5s"/>
+      <s>Add intensifiers: slightly higher, much higher, significantly higher, two points lower.</s>
+    </p>
+    <break time="1.5s"/>
+    <!-- P12 -->
+    <p>
+      <s>Number five: increase and decrease, versus go up and go down.</s><break time="0.5s"/>
+      <s>In formal writing: The potassium level increased.</s><break time="0.5s"/>
+      <s>There was an increase in potassium.</s><break time="0.5s"/>
+      <s>In speaking: The sodium level went down.</s><break time="0.5s"/>
+      <s>Other useful verbs: rise, rose.</s><break time="0.5s"/>
+      <s>Fall, fell.</s><break time="0.5s"/>
+      <s>Drop.</s><break time="0.5s"/>
+      <s>Climb.</s><break time="0.5s"/>
+      <s>Spike.</s><break time="0.5s"/>
+      <s>Plummet.</s><break time="0.5s"/>
+      <s>Potassium spiked overnight.</s><break time="0.5s"/>
+      <s>Notice the stress.</s><break time="0.5s"/>
+      <s>The verb is <phoneme alphabet="ipa" ph="ɪnˈkriːs">increase</phoneme>.</s><break time="0.5s"/>
+      <s>The noun is an <phoneme alphabet="ipa" ph="ˈɪnkriːs">increase</phoneme>.</s><break time="0.5s"/>
+      <s>Prepositions: an increase in potassium, an increase of two points, it increased by two, it increased to five point eight.</s><break time="0.5s"/>
+      <s>If the value went up by itself, say the level increased.</s><break time="0.5s"/>
+      <s>Do not say the level was increased.</s>
+    </p>
+    <break time="1.5s"/>
+    <!-- P13 -->
+    <p>
+      <s>Number six: <emphasis level="moderate">need to be</emphasis>, plus a past participle.</s><break time="0.5s"/>
+      <s>The abnormal value <emphasis level="moderate">needs to be</emphasis> rechecked.</s><break time="0.5s"/>
+      <s>The electrolyte levels <emphasis level="moderate">need to be</emphasis> monitored.</s><break time="0.5s"/>
+      <s>The level <emphasis level="moderate">doesn't need to be</emphasis> corrected immediately.</s><break time="0.5s"/>
+      <s>Does the electrolyte <emphasis level="moderate">need to be</emphasis> replaced?</s><break time="0.5s"/>
+      <s>Be careful with patient safety.</s><break time="0.5s"/>
+      <s><emphasis level="moderate">Doesn't need to be</emphasis> means it is not necessary.</s><break time="0.5s"/>
+      <s><emphasis level="moderate">Mustn't be</emphasis> means it is not allowed.</s><break time="0.5s"/>
+      <s>Sodium <emphasis level="moderate">mustn't be</emphasis> corrected too fast.</s><break time="0.5s"/>
+      <s>First, ask: What is wrong?</s><break time="0.5s"/>
+      <s>Then, ask: What <emphasis level="moderate">needs to be</emphasis> done?</s>
+    </p>
+    <break time="1.5s"/>
+    <!-- P14 -->
+    <p>
+      <s>Quick review.</s><break time="0.5s"/>
+      <s>Potassium is low.</s><break time="0.5s"/>
+      <s>Potassium is <emphasis level="moderate">too low</emphasis>.</s><break time="0.5s"/>
+      <s>There is <emphasis level="moderate">too much</emphasis> potassium.</s><break time="0.5s"/>
+      <s>There is <emphasis level="moderate">too little</emphasis> potassium.</s><break time="0.5s"/>
+      <s>There is <emphasis level="moderate">not enough</emphasis> potassium.</s><break time="0.5s"/>
+      <s>Sodium is <emphasis level="moderate">below the reference range</emphasis>.</s><break time="0.5s"/>
+      <s>Potassium is <emphasis level="moderate">lower than</emphasis> yesterday's.</s><break time="0.5s"/>
+      <s>Sodium decreased.</s><break time="0.5s"/>
+      <s>Potassium went up.</s><break time="0.5s"/>
+      <s>The level <emphasis level="moderate">needs to be</emphasis> monitored.</s>
+    </p>
+    <break time="1.5s"/>
+    <!-- P15 -->
+    <p>
+      <s>Part four.</s><break time="0.5s"/>
+      <s>Warm-up: Electrolyte Language Match.</s><break time="0.5s"/>
+      <s>Electrolyte: a mineral in body fluids that supports important body functions.</s><break time="0.5s"/>
+      <s>Imbalance: a laboratory result outside the expected range.</s><break time="0.5s"/>
+      <s>Level: the amount of a substance present in the blood.</s><break time="0.5s"/>
+      <s>Reference range: the expected interval used to interpret a laboratory result.</s><break time="0.5s"/>
+      <s>Increase: a rise in an amount or value.</s><break time="0.5s"/>
+      <s>Decrease: a reduction in an amount or value.</s>
+    </p>
+    <break time="1.5s"/>
+    <!-- P16 -->
+    <p>
+      <s>Quick discussion.</s><break time="0.5s"/>
+      <s>Can potassium be <emphasis level="moderate">too high</emphasis>?</s><break time="0.5s"/>
+      <s>Yes, it can.</s><break time="0.5s"/>
+      <s>Potassium above five point oh millimoles per liter is <emphasis level="moderate">too high</emphasis>.</s><break time="0.5s"/>
+      <s>This is hyperkalemia.</s><break time="0.5s"/>
+      <s>Can sodium be <emphasis level="moderate">too low</emphasis>?</s><break time="0.5s"/>
+      <s>Yes, it can.</s><break time="0.5s"/>
+      <s>Sodium below one hundred thirty-five millimoles per liter is <emphasis level="moderate">too low</emphasis>.</s><break time="0.5s"/>
+      <s>This is hyponatremia.</s><break time="0.5s"/>
+      <s>What does <emphasis level="moderate">below the reference range</emphasis> mean?</s><break time="0.5s"/>
+      <s>It means the value is <emphasis level="moderate">lower than</emphasis> the minimum normal limit.</s>
+    </p>
+    <break time="1.5s"/>
+    <!-- P17 -->
+    <p>
+      <s>Part five.</s><break time="0.5s"/>
+      <s>Case study: Emma Richardson.</s><break time="0.5s"/>
+      <s>Emma is a sixty-four-year-old woman.</s><break time="0.5s"/>
+      <s>She is in follow-up after gastrointestinal symptoms.</s><break time="0.5s"/>
+      <s>She reports fatigue, mild muscle weakness, and occasional muscle cramps.</s><break time="0.5s"/>
+      <s>Her sodium went from one hundred thirty-six to one hundred thirty-one millimoles per liter.</s><break time="0.5s"/>
+      <s>Her potassium went from three point seven to three point one.</s><break time="0.5s"/>
+      <s>Her magnesium went from zero point eight zero to zero point six eight.</s><break time="0.5s"/>
+      <s>All three levels are low.</s>
+    </p>
+    <break time="1.5s"/>
+    <!-- P18 -->
+    <p>
+      <s>Is Emma's sodium high or low?</s><break time="0.5s"/>
+      <s>It's low: one hundred thirty-one.</s><break time="0.5s"/>
+      <s>Is her sodium higher or <emphasis level="moderate">lower than</emphasis> before?</s><break time="0.5s"/>
+      <s>It's <emphasis level="moderate">lower than</emphasis> before.</s><break time="0.5s"/>
+      <s>It decreased from one hundred thirty-six to one hundred thirty-one.</s><break time="0.5s"/>
+      <s>Is her potassium within or <emphasis level="moderate">below the expected range</emphasis>?</s><break time="0.5s"/>
+      <s>It's <emphasis level="moderate">below the expected range</emphasis>.</s><break time="0.5s"/>
+      <s>What happened to her magnesium level?</s><break time="0.5s"/>
+      <s>It went down, from zero point eight zero to zero point six eight.</s><break time="0.5s"/>
+      <s>How can you describe the potassium, using <emphasis level="moderate">too little</emphasis>?</s><break time="0.5s"/>
+      <s>There is <emphasis level="moderate">too little</emphasis> potassium in her blood.</s><break time="0.5s"/>
+      <s>What <emphasis level="moderate">needs to be</emphasis> monitored or repeated?</s><break time="0.5s"/>
+      <s>Her electrolytes <emphasis level="moderate">need to be</emphasis> monitored, and her lab tests <emphasis level="moderate">need to be</emphasis> repeated.</s>
+    </p>
+    <break time="1.5s"/>
+    <!-- P19 -->
+    <p>
+      <s>Model answer.</s><break time="0.5s"/>
+      <s>Emma Richardson is a sixty-four-year-old patient with several low electrolyte levels.</s><break time="0.5s"/>
+      <s>Her current sodium level is <emphasis level="moderate">lower than</emphasis> her previous result, and is <emphasis level="moderate">below the expected range</emphasis>.</s><break time="0.5s"/>
+      <s>Her potassium is also <emphasis level="moderate">too low</emphasis>, so there is <emphasis level="moderate">not enough</emphasis> potassium in her blood.</s><break time="0.5s"/>
+      <s>Her magnesium level has decreased, and is currently low.</s><break time="0.5s"/>
+      <s>She reports fatigue, mild muscle weakness, and occasional muscle cramps.</s><break time="0.5s"/>
+      <s>Her electrolyte levels <emphasis level="moderate">need to be</emphasis> monitored, and the prescribed replacement plan <emphasis level="moderate">needs to be</emphasis> followed.</s><break time="0.5s"/>
+      <s>Her laboratory tests also <emphasis level="moderate">need to be</emphasis> repeated, to monitor the changes.</s>
+    </p>
+    <break time="1.5s"/>
+    <!-- P20 -->
+    <p>
+      <s>Part six.</s><break time="0.5s"/>
+      <s>Clinical scenarios.</s><break time="0.5s"/>
+      <s>Scenario one.</s><break time="0.5s"/>
+      <s>The patient's potassium level decreased from four point oh to three point two millimoles per liter.</s><break time="0.5s"/>
+      <s>It is now <emphasis level="moderate">lower than</emphasis> her previous result, and <emphasis level="moderate">too low</emphasis> for her clinical status.</s><break time="0.5s"/>
+      <s>There is <emphasis level="moderate">not enough</emphasis> potassium in her blood, which may explain her mild muscle weakness.</s><break time="0.5s"/>
+      <s>Potassium <emphasis level="moderate">needs to be</emphasis> replaced as prescribed, and her blood test <emphasis level="moderate">needs to be</emphasis> repeated to monitor her response.</s>
+    </p>
+    <break time="1.5s"/>
+    <!-- P21 -->
+    <p>
+      <s>Scenario two.</s><break time="0.5s"/>
+      <s>Yuki Tanaka is a forty-three-year-old patient whose sodium level increased from one hundred thirty-seven to one hundred forty-eight millimoles per liter.</s><break time="0.5s"/>
+      <s>His current result is <emphasis level="moderate">higher than</emphasis> the previous one, and <emphasis level="moderate">above the reference range</emphasis>.</s><break time="0.5s"/>
+      <s>His sodium is <emphasis level="moderate">too high</emphasis>, and he reports thirst.</s><break time="0.5s"/>
+      <s>His sodium level <emphasis level="moderate">needs to be</emphasis> monitored closely, and laboratory testing <emphasis level="moderate">needs to be</emphasis> repeated to check the trend.</s>
+    </p>
+    <break time="1.5s"/>
+    <!-- P22 -->
+    <p>
+      <s>Scenario three.</s><break time="0.5s"/>
+      <s>The patient's magnesium level decreased from zero point eight two to zero point six five millimoles per liter.</s><break time="0.5s"/>
+      <s>It is now <emphasis level="moderate">below the reference range</emphasis>, and <emphasis level="moderate">too low</emphasis> for normal muscle function.</s><break time="0.5s"/>
+      <s>There is <emphasis level="moderate">too little</emphasis> magnesium in her blood, which may explain her muscle cramps.</s><break time="0.5s"/>
+      <s>Magnesium <emphasis level="moderate">needs to be</emphasis> replaced, and the test <emphasis level="moderate">needs to be</emphasis> repeated tomorrow.</s>
+    </p>
+    <break time="1.5s"/>
+    <!-- P23 -->
+    <p>
+      <s>Scenario four.</s><break time="0.5s"/>
+      <s>Anna Becker is a sixty-seven-year-old patient whose potassium level increased from four point five to five point six millimoles per liter.</s><break time="0.5s"/>
+      <s>Her current result is <emphasis level="moderate">higher than</emphasis> the previous one, and <emphasis level="moderate">above the reference range</emphasis>.</s><break time="0.5s"/>
+      <s>Although she reports no symptoms, her potassium is <emphasis level="moderate">too high</emphasis>.</s><break time="0.5s"/>
+      <s>Her potassium <emphasis level="moderate">needs to be</emphasis> monitored, and the laboratory test <emphasis level="moderate">needs to be</emphasis> repeated to confirm the result.</s>
+    </p>
+    <break time="1.5s"/>
+    <!-- P24 -->
+    <p>
+      <s>Scenario five.</s><break time="0.5s"/>
+      <s>Daniel Torres is a fifty-five-year-old patient whose sodium level increased from one hundred thirty to one hundred thirty-four millimoles per liter.</s><break time="0.5s"/>
+      <s>His follow-up result is <emphasis level="moderate">higher than</emphasis> the first result, so his sodium is improving.</s><break time="0.5s"/>
+      <s>However, it is still low, and remains <emphasis level="moderate">below the expected range</emphasis>.</s><break time="0.5s"/>
+      <s>His sodium <emphasis level="moderate">needs to be</emphasis> monitored until it returns to normal.</s>
+    </p>
+    <break time="1.5s"/>
+    <!-- P25 -->
+    <p>
+      <s>Part seven.</s><break time="0.5s"/>
+      <s>Common mistakes.</s><break time="0.5s"/>
+      <s>Say it the correct way.</s><break time="0.5s"/>
+      <s>There is <emphasis level="moderate">too little</emphasis> potassium.</s><break time="0.5s"/>
+      <s>Potassium is <emphasis level="moderate">too low</emphasis>.</s><break time="0.5s"/>
+      <s>Above the range.</s><break time="0.5s"/>
+      <s><emphasis level="moderate">Higher than</emphasis>.</s><break time="0.5s"/>
+      <s>The level increased.</s><break time="0.5s"/>
+      <s>Potassium <emphasis level="moderate">needs to be</emphasis> replaced.</s><break time="0.5s"/>
+      <s>Does the electrolyte <emphasis level="moderate">need to be</emphasis> replaced?</s><break time="0.5s"/>
+      <s><emphasis level="moderate">Much too high</emphasis>.</s><break time="0.5s"/>
+      <s>A sixty-four-year-old woman.</s><break time="0.5s"/>
+      <s>The number of patients.</s><break time="0.5s"/>
+      <s>And remember: its, without an apostrophe, is possessive.</s><break time="0.5s"/>
+      <s>It's, with an apostrophe, means it is.</s>
+    </p>
+    <break time="1.5s"/>
+    <!-- P26 -->
+    <p>
+      <s>Part eight.</s><break time="0.5s"/>
+      <s>Red flags.</s><break time="0.5s"/>
+      <s>Sodium below one hundred twenty, with confusion, seizures, or reduced consciousness, is an emergency.</s><break time="0.5s"/>
+      <s>Potassium of six point oh to six point five or higher, or ECG changes, needs emergency cardiac monitoring.</s><break time="0.5s"/>
+      <s>Potassium below two point five, with arrhythmias or progressive weakness, needs controlled replacement with monitoring.</s><break time="0.5s"/>
+      <s>Chronic hyponatremia <emphasis level="moderate">mustn't be</emphasis> corrected too fast: no more than eight to ten millimoles per liter in twenty-four hours.</s><break time="0.5s"/>
+      <s>Chronic hypernatremia also <emphasis level="moderate">needs to be</emphasis> corrected gradually.</s><break time="0.5s"/>
+      <s>A high potassium with no symptoms <emphasis level="moderate">needs to be</emphasis> rechecked, to rule out a hemolyzed sample.</s><break time="0.5s"/>
+      <s>Clinical pearl: low magnesium makes low potassium harder to correct.</s><break time="0.5s"/>
+      <s>In Emma's case, magnesium <emphasis level="moderate">needs to be</emphasis> corrected too.</s>
+    </p>
+    <break time="1.5s"/>
+    <!-- P27 -->
+    <p>
+      <s>Part nine.</s><break time="0.5s"/>
+      <s>Final practice.</s><break time="0.5s"/>
+      <s>Item one.</s><break time="0.5s"/>
+      <s>Her potassium is three point oh millimoles per liter.</s><break time="0.5s"/>
+      <s>There is, blank, potassium in her blood, so it <emphasis level="moderate">needs to be</emphasis> replaced.</s><break time="0.5s"/>
+      <s>The answer is: <emphasis level="moderate">not enough</emphasis>.</s><break time="0.5s"/>
+      <s>Item two.</s><break time="0.5s"/>
+      <s>Choose the correct sentence.</s><break time="0.5s"/>
+      <s>The answer is: The sodium <emphasis level="moderate">needs to be</emphasis> corrected slowly.</s>
+    </p>
+    <break time="1.5s"/>
+    <!-- P28 -->
+    <p>
+      <s>Great work today, colleague.</s><break time="0.5s"/>
+      <s>Read the model texts out loud, every day.</s><break time="0.5s"/>
+      <s>Practice a little, and practice often.</s><break time="0.5s"/>
+      <s>See you in the next lesson.</s>
+    </p>
+    <break time="1.5s"/>
+  </prosody>
+</speak>
