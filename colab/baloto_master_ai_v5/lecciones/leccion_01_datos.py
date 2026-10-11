@@ -8,6 +8,8 @@ import pandas as pd
 
 # 1) Lo que ves en la pantalla, transcrito tal cual (una línea por sorteo)
 TEXTO_PANTALLA = """
+Baloto   | 10 de Octubre de 2026   | 15 - 18 - 24 - 25 - 42 - 03
+Revancha | 10 de Octubre de 2026   | 02 - 10 - 11 - 20 - 42 - 05
 Baloto   | 7 de Octubre de 2026    | 05 - 17 - 19 - 27 - 39 - 08
 Revancha | 7 de Octubre de 2026    | 06 - 09 - 16 - 36 - 39 - 04
 Baloto   | 5 de Octubre de 2026    | 13 - 14 - 16 - 25 - 28 - 08
@@ -18,6 +20,14 @@ Baloto   | 30 de Septiembre de 2026 | 11 - 18 - 22 - 30 - 32 - 10
 Revancha | 30 de Septiembre de 2026 | 04 - 10 - 14 - 18 - 23 - 07
 Baloto   | 28 de Septiembre de 2026 | 12 - 13 - 15 - 25 - 29 - 10
 Revancha | 28 de Septiembre de 2026 | 16 - 19 - 24 - 26 - 28 - 02
+Baloto   | 26 de Septiembre de 2026 | 11 - 15 - 16 - 20 - 36 - 12
+Revancha | 26 de Septiembre de 2026 | 12 - 13 - 21 - 40 - 42 - 08
+Baloto   | 23 de Septiembre de 2026 | 04 - 09 - 14 - 15 - 16 - 12
+Revancha | 23 de Septiembre de 2026 | 01 - 06 - 21 - 22 - 42 - 16
+Baloto   | 21 de Septiembre de 2026 | 04 - 15 - 17 - 22 - 23 - 10
+Revancha | 21 de Septiembre de 2026 | 05 - 32 - 33 - 36 - 40 - 04
+Baloto   | 19 de Septiembre de 2026 | 11 - 13 - 17 - 19 - 39 - 04
+Revancha | 19 de Septiembre de 2026 | 10 - 25 - 27 - 38 - 42 - 03
 """
 
 # 2) Diccionario: traduce el mes en palabras al número que entiende pandas
