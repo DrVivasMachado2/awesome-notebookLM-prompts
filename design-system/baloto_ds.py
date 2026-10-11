@@ -14,11 +14,30 @@ from __future__ import annotations
 
 import html
 import json
+import re
+from functools import lru_cache
 from pathlib import Path
 from typing import Iterable, Sequence
 
 DIR = Path(__file__).resolve().parent
 TEMAS = ("dark", "high-contrast")
+_tema_activo = "dark"
+
+# Colores literales de los notebooks Baloto Master AI originales → token que los reemplaza.
+# aplicar_tokens() los traduce al valor actual de tokens.json (y del tema activo).
+HEX_FUENTE = {
+    "#00f2ff": "primary-container", "#ffdb3c": "secondary-container", "#050814": "void",
+    "#0e1225": "background", "#0a0e21": "night", "#dee1fc": "on-surface", "#e1fdff": "primary",
+    "#b9cacb": "on-surface-variant", "#849495": "outline", "#3a494b": "outline-variant",
+    "#303448": "surface-container-highest", "#161a2e": "surface-container-low",
+    "#1b1e32": "surface-container", "#25293d": "surface-container-high", "#34384d": "surface-bright",
+    "#00363a": "on-primary", "#fff9ef": "secondary", "#0088ff": "cyan-blue",
+    "#0055ff": "electric-blue", "#aa00ff": "quantum", "#00ff88": "positive", "#ff5555": "negative",
+    "#ff3366": "chart-rival", "#ffd700": "gold-spec", "#e0e6ff": "v4-ink", "#02000a": "v4-void",
+    "#0a0a20": "v4-night",
+}
+RGB_FUENTE = {"0, 242, 255": "primary-container", "255, 219, 60": "secondary-container",
+              "170, 0, 255": "quantum", "0, 255, 136": "positive"}
 FUENTES = (
     '<link rel="preconnect" href="https://fonts.googleapis.com">'
     '<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Inter:wght@100..900'
@@ -50,13 +69,24 @@ def css() -> str:
     return f"<style>{_leer('tokens.css')}</style><style>{_leer('bundle.css')}</style>"
 
 
+@lru_cache(maxsize=1)
 def tokens() -> dict:
     """tokens.json como diccionario (para leer valores desde Python)."""
     return json.loads(_leer("tokens.json"))
 
 
-def color(nombre: str, tema: str = "dark") -> str:
-    """Valor hex de un token de color en un tema, siguiendo alias. Ej: color('primary-container')."""
+def usar_tema(tema: str = "dark") -> None:
+    """Fija el tema activo: lo usan color(), aplicar_tokens(), HTML() y estilo_graficos()."""
+    global _tema_activo
+    if tema not in TEMAS:
+        raise ValueError(f"tema debe ser uno de {TEMAS}")
+    _tema_activo = tema
+
+
+def color(nombre: str, tema: str | None = None) -> str:
+    """Valor hex de un token de color, siguiendo alias. Ej: color('primary-container').
+    Sin `tema`, usa el tema activo (ver usar_tema)."""
+    tema = tema or _tema_activo
     por_nombre = {t["name"]: t for t in tokens()["color"]["tokens"]}
     primero = tokens()["color"]["themes"][0]["id"]
     valor = por_nombre[nombre]["value"]
@@ -68,8 +98,9 @@ def color(nombre: str, tema: str = "dark") -> str:
         return valor
 
 
-def pagina(cuerpo: str, tema: str = "dark", lienzo: bool = True, padding: int = 16) -> str:
-    """Envuelve HTML con fuentes, estilos y el tema elegido."""
+def pagina(cuerpo: str, tema: str | None = None, lienzo: bool = True, padding: int = 16) -> str:
+    """Envuelve HTML con fuentes, estilos y el tema elegido (por defecto, el activo)."""
+    tema = tema or _tema_activo
     if tema not in TEMAS:
         raise ValueError(f"tema debe ser uno de {TEMAS}")
     clase = "bm-canvas" if lienzo else ""
@@ -77,17 +108,43 @@ def pagina(cuerpo: str, tema: str = "dark", lienzo: bool = True, padding: int = 
             f'style="padding:{padding}px;border-radius:12px">{cuerpo}</div>')
 
 
-def mostrar(*partes: str, tema: str = "dark", separacion: int = 16) -> None:
+def mostrar(*partes: str, tema: str | None = None, separacion: int = 16) -> None:
     """Muestra componentes en la celda actual. Acepta varias piezas de HTML."""
     from IPython.display import HTML, display
     cuerpo = f'<div style="display:grid;gap:{separacion}px">' + "".join(partes) + "</div>"
     display(HTML(pagina(cuerpo, tema=tema)))
 
 
-def estilo_graficos(tema: str = "dark") -> None:
-    """Aplica el estilo matplotlib del sistema (baloto-<tema>.mplstyle)."""
+def estilo_graficos(tema: str | None = None) -> None:
+    """Aplica el estilo matplotlib del sistema (baloto-<tema>.mplstyle) y fija el tema activo."""
     import matplotlib.pyplot as plt
-    plt.style.use(str(DIR / f"baloto-{tema}.mplstyle"))
+    usar_tema(tema or _tema_activo)
+    plt.style.use(str(DIR / f"baloto-{_tema_activo}.mplstyle"))
+
+
+def aplicar_tokens(codigo: str, tema: str | None = None) -> str:
+    """Traduce los colores literales de los notebooks originales (hex y rgba de cian/oro/violeta/verde)
+    a los valores actuales de tokens.json en el tema activo. Sirve para HTML, CSS, SVG,
+    JavaScript y configuraciones de Tailwind sin reescribirlos."""
+    tema = tema or _tema_activo
+    patron_hex = re.compile("(" + "|".join(HEX_FUENTE) + r")(?![0-9a-fA-F])", re.IGNORECASE)
+    codigo = patron_hex.sub(lambda m: color(HEX_FUENTE[m.group(1).lower()], tema), codigo)
+
+    def rgb(nombre):
+        h = color(nombre, tema).lstrip("#")
+        return ", ".join(str(int(h[i:i + 2], 16)) for i in (0, 2, 4))
+    patron_rgb = re.compile(r"(rgba?\(\s*)(" + "|".join(re.escape(k).replace(r"\ ", r"\s*")
+                                                     for k in RGB_FUENTE) + r")")
+    claves = {re.sub(r"\s", "", k): v for k, v in RGB_FUENTE.items()}
+    return patron_rgb.sub(lambda m: m.group(1) + rgb(claves[re.sub(r"\s", "", m.group(2))]), codigo)
+
+
+def HTML(data=None, url=None, filename=None, metadata=None, tema: str | None = None):
+    """Igual que IPython.display.HTML, pero pasa el HTML por aplicar_tokens()."""
+    from IPython.display import HTML as _HTML
+    if isinstance(data, str):
+        data = aplicar_tokens(data, tema)
+    return _HTML(data=data, url=url, filename=filename, metadata=metadata)
 
 
 # ---------------------------------------------------------------- componentes

@@ -62,7 +62,20 @@ bm.mostrar(bm.aviso(), tema="high-contrast")   # versión WCAG AAA
 | `boton()` | Button (`tipo="master" \| "cuantico" \| "fantasma" \| "v4"`) |
 | `consola()` | ResultsConsole |
 | `aviso()` | Disclaimer de juego responsable |
-| `color(nombre, tema)` | Valor hex de un token (para Plotly, seaborn, tablas) |
+| `color(nombre, tema)` | Valor hex de un token (para Plotly, seaborn, tablas); sin `tema`, usa el activo |
+| `usar_tema(tema)` | Fija el tema activo (`estilo_graficos()` también lo hace) |
+| `HTML(...)` | Como `IPython.display.HTML`, pero traduce los colores de la paleta original a los tokens actuales |
+| `aplicar_tokens(codigo)` | Esa misma traducción sobre cualquier texto: HTML, CSS, SVG, JS o configuración de Tailwind |
+
+### Notebook V4 con el design system
+
+`Baloto_Master_AI_V4_1_DS.ipynb` (raíz del repositorio) es tu V4 más reciente con el sistema aplicado:
+- Celda inicial **Design System**, con `TEMA = "dark"` o `"high-contrast"`.
+- 759 colores fijos de los gráficos ahora son `bm.color(...)`.
+- Las 14 celdas HTML usan `bm.HTML`.
+- El aviso de juego responsable va junto a cada panel de combinaciones.
+
+Tu notebook original no se modificó.
 
 > Cada salida de Colab es un iframe aislado: `bm.mostrar()` incluye los estilos en cada celda. Las fuentes (Inter, Orbitron, Material Symbols) se cargan desde Google Fonts y necesitan conexión a internet.
 
