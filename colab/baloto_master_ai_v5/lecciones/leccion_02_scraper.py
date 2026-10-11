@@ -58,6 +58,8 @@ def _fecha_iso(dia: str, mes: str, anio: str) -> str | None:
 def extraer_sorteos(html: str) -> list[dict]:
     """Busca cada bloque de texto que contenga '5 números con guiones' y, cerca, una fecha y el juego."""
     soup = BeautifulSoup(html, "html.parser")
+    for basura in soup(["script", "style"]):                   # el código JS/CSS no es contenido visible
+        basura.decompose()
     sorteos = []
     for nodo in soup.find_all(string=PATRON_RESULTADO):        # nodos de texto que parecen un resultado
         bloque = nodo
