@@ -132,6 +132,17 @@ def cargar_historico(ruta_csv: str | None = None) -> pd.DataFrame:
     raise FileNotFoundError("Indica RUTA_CSV o activa MODO_DEMO.")
 
 
+def parsear_fechas(serie: pd.Series) -> pd.Series:
+    """Acepta ISO (2026-10-07) y día/mes/año (07/10/2026). Lo que no encaje queda como NaT.
+
+    No se usa un único `dayfirst=True`: con fechas ISO convierte 2026-10-07 en 10 de julio.
+    """
+    texto = serie.astype(str).str.strip()
+    iso = pd.to_datetime(texto, errors="coerce", format="ISO8601")
+    dmy = pd.to_datetime(texto, errors="coerce", dayfirst=True, format="mixed")
+    return iso.fillna(dmy)
+
+
 def validar_historico(df: pd.DataFrame, juego: str | None = None) -> tuple[pd.DataFrame, dict]:
     """Limpia y valida el histórico. Nunca rellena con datos aleatorios.
 
@@ -167,12 +178,15 @@ def validar_historico(df: pd.DataFrame, juego: str | None = None) -> tuple[pd.Da
     df[COLS_B] = ordenadas
 
     if "Fecha" in df.columns:
-        df["Fecha"] = pd.to_datetime(df["Fecha"], errors="coerce", dayfirst=True)
+        df["Fecha"] = parsear_fechas(df["Fecha"])
+        reporte["fechas_invalidas"] = int(df["Fecha"].isna().sum())
         claves = ["Fecha"] + (["Juego"] if "Juego" in df.columns else [])
+        con_fecha = df["Fecha"].notna()
         antes = len(df)
-        df = df.drop_duplicates(subset=claves, keep="last")
+        # Solo se deduplica entre filas con fecha válida: dos NaT no son "el mismo sorteo"
+        df = pd.concat([df[con_fecha].drop_duplicates(subset=claves, keep="last"), df[~con_fecha]])
         reporte["duplicados_eliminados"] = antes - len(df)
-        df = df.sort_values("Fecha", kind="stable")
+        df = df.sort_values("Fecha", kind="stable", na_position="first")
 
     df = df.reset_index(drop=True)
     reporte["filas_validas"] = len(df)
