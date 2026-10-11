@@ -1,0 +1,28 @@
+# Baloto Master AI — matplotlib, tema high-contrast (generado desde tokens.json)
+figure.facecolor: 000000
+figure.edgecolor: 000000
+savefig.facecolor: 000000
+axes.facecolor: 000000
+axes.edgecolor: 8a9a9c
+axes.labelcolor: e6eaf0
+axes.titlecolor: ffffff
+axes.titleweight: bold
+axes.titlesize: 14
+axes.labelsize: 11
+axes.grid: True
+axes.spines.top: False
+axes.spines.right: False
+axes.prop_cycle: cycler('color', ['00b7c1', 'ffdb3c', '00ff88', 'ff7a9c', 'c780ff', '5c9dff'])
+grid.color: 00b7c1
+grid.alpha: 0.35
+grid.linewidth: 0.8
+text.color: ffffff
+xtick.color: e6eaf0
+ytick.color: e6eaf0
+legend.facecolor: 12162a
+legend.edgecolor: 8a9a9c
+legend.labelcolor: ffffff
+lines.linewidth: 2.5
+patch.edgecolor: 000000
+font.family: sans-serif
+font.sans-serif: Inter, DejaVu Sans, Arial, sans-serif

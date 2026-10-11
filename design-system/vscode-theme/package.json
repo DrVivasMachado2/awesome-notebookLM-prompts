@@ -1,0 +1,25 @@
+{
+  "name": "baloto-master-ai-theme",
+  "displayName": "Baloto Master AI Theme",
+  "description": "Tema oscuro y de alto contraste (WCAG AAA) del design system Baloto Master AI, con snippets de componentes.",
+  "version": "1.0.0",
+  "publisher": "drvivasmachado2",
+  "license": "CC-BY-4.0",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/DrVivasMachado2/awesome-notebookLM-prompts"
+  },
+  "engines": { "vscode": "^1.80.0" },
+  "categories": ["Themes", "Snippets"],
+  "keywords": ["theme", "dark", "high contrast", "neon", "baloto"],
+  "contributes": {
+    "themes": [
+      { "label": "Baloto Master AI", "uiTheme": "vs-dark", "path": "./themes/baloto-master-ai-color-theme.json" },
+      { "label": "Baloto Master AI · Alto contraste", "uiTheme": "hc-black", "path": "./themes/baloto-master-ai-hc-color-theme.json" }
+    ],
+    "snippets": [
+      { "language": "html", "path": "./snippets/html.json" },
+      { "language": "python", "path": "./snippets/python.json" }
+    ]
+  }
+}

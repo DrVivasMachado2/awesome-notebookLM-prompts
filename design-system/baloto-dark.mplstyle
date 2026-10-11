@@ -1,0 +1,28 @@
+# Baloto Master AI — matplotlib, tema dark (generado desde tokens.json)
+figure.facecolor: 050814
+figure.edgecolor: 050814
+savefig.facecolor: 050814
+axes.facecolor: 0e1225
+axes.edgecolor: 3a494b
+axes.labelcolor: b9cacb
+axes.titlecolor: dee1fc
+axes.titleweight: bold
+axes.titlesize: 14
+axes.labelsize: 11
+axes.grid: True
+axes.spines.top: False
+axes.spines.right: False
+axes.prop_cycle: cycler('color', ['00b7c1', 'ffdb3c', '00ff88', 'ff3366', 'aa00ff', '0088ff'])
+grid.color: 00b7c1
+grid.alpha: 0.12
+grid.linewidth: 0.8
+text.color: dee1fc
+xtick.color: b9cacb
+ytick.color: b9cacb
+legend.facecolor: 25293d
+legend.edgecolor: 3a494b
+legend.labelcolor: dee1fc
+lines.linewidth: 2.5
+patch.edgecolor: 050814
+font.family: sans-serif
+font.sans-serif: Inter, DejaVu Sans, Arial, sans-serif

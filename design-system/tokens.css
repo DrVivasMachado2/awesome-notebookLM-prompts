@@ -1,0 +1,116 @@
+/* Baloto Master AI — generated from tokens.json */
+
+:root, [data-theme="dark"] {
+  --outline-variant: #3a494b;
+  --primary-container: #00b7c1;
+  --on-surface: #dee1fc;
+  --background: #0e1225;
+  --on-primary: #00363a;
+  --secondary-container: #ffdb3c;
+  --surface-container-low: #161a2e;
+  --primary: #50c8ff;
+  --outline: #849495;
+  --surface-container-highest: #303448;
+  --on-surface-variant: #b9cacb;
+  --secondary: #fff9ef;
+  --surface-container: #1b1e32;
+  --surface-variant: var(--surface-container-highest);
+  --surface-dim: var(--background);
+  --surface: var(--background);
+  --surface-bright: #34384d;
+  --surface-container-high: #25293d;
+  --void: #050814;
+  --night: #0a0e21;
+  --cyan-blue: #0088ff;
+  --electric-blue: #0055ff;
+  --quantum: #aa00ff;
+  --positive: #00ff88;
+  --negative: #ff5555;
+  --chart-rival: #ff3366;
+  --gold-spec: #ffd700;
+  --v4-ink: #7f2d8e;
+  --v4-void: #02000a;
+  --v4-night: #0a0a20;
+  --white: #ffffff;
+  --shadow-neon-box: 0 0 10px rgba(0, 242, 255, 0.5), inset 0 0 10px rgba(0, 242, 255, 0.2);
+  --shadow-glass: 0 8px 32px 0 rgba(0, 0, 0, 0.5), inset 0 0 20px rgba(0, 242, 255, 0.02);
+  --shadow-topbar: 0 4px 30px rgba(0, 242, 255, 0.15);
+  --shadow-ball-cyan: 0 0 12px rgba(0, 242, 255, 0.5), inset 0 0 8px rgba(0, 242, 255, 0.5);
+  --shadow-ball-gold: 0 0 12px rgba(255, 219, 60, 0.5), inset 0 0 8px rgba(255, 219, 60, 0.5);
+  --shadow-ticket: 0 8px 20px rgba(0, 0, 0, 0.6);
+  --shadow-ticket-hover: 0 12px 25px rgba(0, 242, 255, 0.4);
+  --shadow-button: 0 0 20px rgba(0, 242, 255, 0.6);
+  --shadow-button-hover: 0 0 40px rgba(0, 242, 255, 1), inset 0 0 15px rgba(255, 255, 255, 0.6);
+  --shadow-badge-gold: 0 0 10px rgba(255, 219, 60, 0.3);
+  --shadow-quantum: 0 0 15px #aa00ff;
+  --shadow-shell: 0 0 30px rgba(0, 242, 255, 0.15), inset 0 0 20px rgba(0, 242, 255, 0.05);
+}
+
+[data-theme="high-contrast"] {
+  --outline-variant: #8a9a9c;
+  --on-surface: #ffffff;
+  --background: #000000;
+  --surface-container-low: #12162a;
+  --primary: #ffffff;
+  --outline: #b5c0c2;
+  --surface-container-highest: #12162a;
+  --on-surface-variant: #e6eaf0;
+  --surface-container: #12162a;
+  --surface-variant: var(--surface-container-highest);
+  --surface-dim: var(--background);
+  --surface: var(--background);
+  --surface-bright: #2a2f45;
+  --surface-container-high: #12162a;
+  --void: #000000;
+  --night: #000000;
+  --cyan-blue: #5c9dff;
+  --electric-blue: #5c9dff;
+  --quantum: #c780ff;
+  --negative: #ff7a7a;
+  --chart-rival: #ff7a9c;
+  --v4-ink: #ffffff;
+  --v4-void: #000000;
+  --v4-night: #000000;
+}
+
+:root {
+  --space-1: 4px;
+  --space-2: 8px;
+  --space-3: 12px;
+  --space-4: 16px;
+  --space-5: 20px;
+  --space-6: 24px;
+  --space-8: 32px;
+  --space-10: 40px;
+  --ball-lg: 48px;
+  --ball-md: 42px;
+  --ball-sm: 30px;
+  --tile: 40px;
+  --topbar-height: 80px;
+  --grid-pitch: 30px;
+  --radius-sm: 4px;
+  --radius-lg: 8px;
+  --radius-xl: 12px;
+  --radius-2xl: 16px;
+  --radius-3xl: 24px;
+  --radius-full: 9999px;
+  --radius-v4-card: 15px;
+  --radius-v4-shell: 20px;
+  --tint-5: 0.05;
+  --tint-10: 0.1;
+  --tint-20: 0.2;
+  --tint-30: 0.3;
+  --tint-40: 0.4;
+  --tint-50: 0.5;
+  --tint-70: 0.7;
+  --tint-80: 0.8;
+  --blur-glass: 16px;
+  --blur-ticket: 10px;
+  --blur-v4: 15px;
+  --blur-topbar: 24px;
+  --font-sans: "Inter", system-ui, sans-serif;
+  --font-display: "Orbitron", "Inter", sans-serif;
+  --font-mono: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;
+  --font-console: "Courier New", Courier, monospace;
+  --font-icons: "Material Symbols Outlined";
+}

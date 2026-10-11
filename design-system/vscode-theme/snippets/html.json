@@ -1,0 +1,72 @@
+{
+  "Baloto · combinación": {
+    "prefix": [
+      "bm-combo",
+      "bm-combinacion"
+    ],
+    "body": [
+      "<div class=\"bm-combo neon-box-cyan\">",
+      "  <div class=\"bm-balls\">",
+      "    <div class=\"bm-ball neon-text-cyan\">${1:04}</div><div class=\"bm-ball neon-text-cyan\">${2:17}</div><div class=\"bm-ball neon-text-cyan\">${3:22}</div><div class=\"bm-ball neon-text-cyan\">${4:35}</div><div class=\"bm-ball neon-text-cyan\">${5:41}</div>",
+      "    <span class=\"bm-plus\">+</span><div class=\"bm-ball super neon-text-gold\">${6:13}</div>",
+      "  </div>",
+      "  <div class=\"bm-score\"><span class=\"bm-micro\">Confianza</span><span class=\"bm-metric neon-text-cyan\">${7:94.2}%</span></div>",
+      "</div>"
+    ],
+    "description": "CombinationRow del Generador Cuántico"
+  },
+  "Baloto · ticket": {
+    "prefix": [
+      "bm-ticket"
+    ],
+    "body": [
+      "<div class=\"ticket-glass\">",
+      "  <div class=\"t-header\"><span>${1:TICKET 1}</span><span class=\"badge\">${2:Premio \\$12.500M}</span></div>",
+      "  <div class=\"bolas-wrapper\"><div class=\"bola\">${3:04}</div><div class=\"bola\">${4:17}</div><div class=\"bola\">${5:22}</div><div class=\"bola\">${6:35}</div><div class=\"bola\">${7:41}</div><span class=\"plus-sign\">+</span><div class=\"bola super\">${8:13}</div></div>",
+      "</div>"
+    ],
+    "description": "TicketCard"
+  },
+  "Baloto · panel glass": {
+    "prefix": [
+      "bm-panel",
+      "bm-glass"
+    ],
+    "body": [
+      "<section class=\"glass-panel\">",
+      "  <p class=\"bm-eyebrow neon-text-cyan\">${1:Generador Cuántico}</p>",
+      "  <p class=\"bm-title\">${2:Combinaciones de Alta Probabilidad}</p>",
+      "  $0",
+      "</section>"
+    ],
+    "description": "GlassPanel con eyebrow y título"
+  },
+  "Baloto · estadística": {
+    "prefix": [
+      "bm-stat"
+    ],
+    "body": [
+      "<div class=\"bm-stat neon-box-cyan\"><span class=\"bm-micro\">${1:Pares}</span><p class=\"value neon-text-${2|cyan,gold|}\">${3:60%}</p></div>"
+    ],
+    "description": "StatTile"
+  },
+  "Baloto · botón principal": {
+    "prefix": [
+      "bm-btn"
+    ],
+    "body": [
+      "<button class=\"${1|btn-master,btn-cuantico,bm-btn-ghost neon-text-cyan,btn-quantum-v4|}\">${2:Generar Suerte}</button>"
+    ],
+    "description": "btn-master (uno por vista)"
+  },
+  "Baloto · aviso legal": {
+    "prefix": [
+      "bm-aviso",
+      "bm-disclaimer"
+    ],
+    "body": [
+      "<aside class=\"bm-disclaimer\" role=\"note\"><span class=\"material-symbols-outlined filled\" aria-hidden=\"true\">18_up_rating</span><p style=\"margin:0\"><strong>Juega con responsabilidad.</strong> Baloto Master AI es una herramienta de análisis estadístico independiente y no tiene vinculación oficial con Operador Nacional de Juegos, Coljuegos ni el Gobierno Nacional de Colombia. Los pronósticos generados se basan en probabilidades históricas y no garantizan resultados ganadores. El juego de suerte y azar es para mayores de 18 años. Si sientes que el juego afecta tu vida, busca ayuda profesional.</p></aside>"
+    ],
+    "description": "Disclaimer obligatorio de juego responsable"
+  }
+}

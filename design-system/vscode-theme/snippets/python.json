@@ -1,0 +1,84 @@
+{
+  "Baloto · combinación": {
+    "prefix": [
+      "bm-combo",
+      "bm-combinacion"
+    ],
+    "body": [
+      "bm.combinacion([${1:4}, ${2:17}, ${3:22}, ${4:35}, ${5:41}], ${6:13}, ${7:94.2})"
+    ],
+    "description": "CombinationRow del Generador Cuántico"
+  },
+  "Baloto · ticket": {
+    "prefix": [
+      "bm-ticket"
+    ],
+    "body": [
+      "bm.ticket(\"${1:TICKET 1}\", [${2:4, 17, 22, 35, 41}], ${3:13}, insignia=\"${4:Premio \\$12.500M}\")"
+    ],
+    "description": "TicketCard"
+  },
+  "Baloto · panel glass": {
+    "prefix": [
+      "bm-panel",
+      "bm-glass"
+    ],
+    "body": [
+      "bm.panel(\"${1:Generador Cuántico}\", \"${2:Combinaciones de Alta Probabilidad}\", ${3:contenido})"
+    ],
+    "description": "GlassPanel con eyebrow y título"
+  },
+  "Baloto · estadística": {
+    "prefix": [
+      "bm-stat"
+    ],
+    "body": [
+      "bm.estadistica(\"${1:Pares}\", \"${2:60%}\", tono=\"${3|cyan,gold|}\")"
+    ],
+    "description": "StatTile"
+  },
+  "Baloto · botón principal": {
+    "prefix": [
+      "bm-btn"
+    ],
+    "body": [
+      "bm.boton(\"${1:Generar Suerte}\", tipo=\"${2|master,cuantico,fantasma,v4|}\")"
+    ],
+    "description": "btn-master (uno por vista)"
+  },
+  "Baloto · aviso legal": {
+    "prefix": [
+      "bm-aviso",
+      "bm-disclaimer"
+    ],
+    "body": [
+      "bm.aviso()"
+    ],
+    "description": "Disclaimer obligatorio de juego responsable"
+  },
+  "Baloto · mostrar": {
+    "prefix": [
+      "bm-mostrar",
+      "bm-show"
+    ],
+    "body": [
+      "bm.mostrar(",
+      "    ${1:bm.aviso()},",
+      "    tema=\"${2|dark,high-contrast|}\",",
+      ")"
+    ],
+    "description": "Pintar componentes en la celda"
+  },
+  "Baloto · setup notebook": {
+    "prefix": [
+      "bm-setup"
+    ],
+    "body": [
+      "import sys",
+      "sys.path.insert(0, \"${1:design-system}\")",
+      "import baloto_ds as bm",
+      "bm.estilo_graficos(\"${2|dark,high-contrast|}\")"
+    ],
+    "description": "Importar el design system y aplicar el estilo de gráficos"
+  }
+}
