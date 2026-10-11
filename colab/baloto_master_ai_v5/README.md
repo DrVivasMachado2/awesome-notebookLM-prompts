@@ -1,7 +1,7 @@
 # 🎯 Baloto Master AI v5.0: auditoría, refactorización y guía para Colab
 
 > **Origen:** `copia_de_copia_de_copia_de_copia_de_copia_de_baloto_master_ai_v4_0.py` (15.918 líneas, 698 KB, exportado desde Colab).
-> **Resultado:** un motor modular de **~640 líneas** en 12 celdas, probado de principio a fin (0 errores, 4 gráficos).
+> **Resultado:** un motor modular de **~625 líneas** en 12 celdas, probado de principio a fin (0 errores, 4 gráficos).
 
 | Archivo | Uso |
 |---|---|
